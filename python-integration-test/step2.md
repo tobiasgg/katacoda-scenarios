@@ -1,10 +1,10 @@
 # Our two software modules we want to test
 In this step we will present the two software modules we want to perform integration testing on.
-The first one, python-integration-test/server/simple_webserver.py, is a simple python HTTP webserver that listens for HTTP requests on port 8000. If a request is made the server should log the request. This is the functionality we want to test later on. 
+The first one, `python-integration-test/server/simple_webserver.py`{{open}}, is a simple python HTTP webserver that listens for HTTP requests on port 8000. If a request is made the server should log the request. This is the functionality we want to test later on. 
 
 To build this application we have used the built in `http` python package. 
 
-The second module, python-integration-test/client/client.py, simulates a client and performs an HTTP request to our server.
+The second module, `python-integration-test/client/client.py`{{open}}, simulates a client and performs an HTTP request to our server.
 
 The "logging requests"-functionality of the server is the one we will test in our integration tests later on.
 
