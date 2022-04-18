@@ -6,14 +6,14 @@ class RequestHandler(SimpleHTTPRequestHandler):
         # This function handles a GET HTTP request and log the 
         # client adress along with the type of request.
         self.send_response(200) 
-        client_adress = SimpleHTTPRequestHandler.client_address
+        client_adress = self.client_address
         print((client_adress, "GET"))
 
     def do_POST(self):   
         # This function handles a POST HTTP request and log the 
         # client adress along with the type of request.
         self.send_response(200) 
-        client_adress = SimpleHTTPRequestHandler.client_address
+        client_adress = self.client_address
         print((client_adress, "POST"))
 
 class Server:
