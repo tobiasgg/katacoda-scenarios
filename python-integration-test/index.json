@@ -30,12 +30,12 @@
     },
     "assets": {
       "host01": [
-          {"file": "simple_webserver.py", "target": "./server/src"},
-          {"file": "Dockerfile.server", "target": "./server/"},
-          {"file": "client.py", "target": "./client/src"},
-          {"file": "Dockerfile.client", "target": "./client/"},
-          {"file": "docker-compose.yml", "target": "."},
-          {"file": "integration_test.py", "target": "."}
+        {"file": "simple_webserver.py", "target": "./server/src", "chmod": "u=rwx,g=rx,o=r"},
+        {"file": "Dockerfile.server", "target": "./server/", "chmod": "u=rwx,g=rx,o=r"},
+        {"file": "client.py", "target": "./client/src", "chmod": "u=rwx,g=rx,o=r"},
+        {"file": "Dockerfile.client", "target": "./client/", "chmod": "u=rwx,g=rx,o=r"},
+        {"file": "docker-compose.yml", "target": ".", "chmod": "u=rwx,g=rx,o=r"},
+        {"file": "integration_test.py", "target": ".", "chmod": "u=rwx,g=rx,o=r"}
       ]
   }
   },
