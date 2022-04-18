@@ -10,6 +10,5 @@ The second module, `/client/client.py`{{open}}, simulates a client and performs 
 The "logging requests"-functionality of the server is the one we will test in our integration tests later on.
 
 Since these two modules require some additional dependencies we will run the command
-`pip install requirements.txt`{{execute}}
-Which will install all python packages specified in the file `requirements.txt`.
+`pip install requests`{{execute}}.
 
