@@ -1,5 +1,5 @@
 {
-  "title": "Integration testing in python using the testcontainers packagage",
+  "title": "Integration testing in python using the testcontainers package",
   "description": "This scenario provides a tutorial on using the testcontainers package for integration testing",
   "difficulty": "Beginner",
   "time": "30 minutes",

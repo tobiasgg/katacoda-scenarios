@@ -10,7 +10,8 @@ If you want to learn more about any of the topics discussed in this tutorial ple
 
 * [Integration testing](https://en.wikipedia.org/wiki/Integration_testing)
 * [Containers](https://en.wikipedia.org/wiki/OS-level_virtualization)
-* [Testcontainers](https://testcontainers-python.readthedocs.io/en/latest/)
+* [Testcontainers GitHub repo](https://github.com/testcontainers/testcontainers-python)
+* [Testcontainers documentation](https://testcontainers-python.readthedocs.io/en/latest/)
 * [Docker](https://docs.docker.com/get-started/overview/)
 * [Docker Compose](https://docs.docker.com/compose/)
 * [Python](https://www.python.org/about/)
