@@ -30,19 +30,14 @@
     },
     "assets": {
       "host01": [
-          {"file": "/server/src/simple_webserver.py", "target": "/server/src"},
-          {"file": "/server/Dockerfile", "target": "/server/Dockerfile"},
-          {"file": "/client/src/client.py", "target": "/client/src"},
-          {"file": "/client/Dockerfile", "target": "/client/Dockerfile"},
+          {"file": "simple_webserver.py", "target": "/server/src"},
+          {"file": "Dockerfile.server", "target": "/server/"},
+          {"file": "client.py", "target": "/client/src"},
+          {"file": "Dockerfile.client", "target": "/client/"},
           {"file": "docker-compose.yml", "target": "."},
           {"file": "integration_test.py", "target": "."}
       ]
-  },
-  "assets2": {
-    "host01": [
-        {"file": "simple_webserver.py", "target": "/server/src"}
-    ]
-}
+  }
   },
   "environment": {"uilayout": "vscode-terminal-split"},
   "backend": {
