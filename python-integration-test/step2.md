@@ -1,6 +1,6 @@
 # Our two software modules we want to test
 In this step we will present the two software modules we want to perform integration testing on.
-The first one, <insert_file_name>, is a simple python HTTP webserver that listens for HTTP requests on port 8000. If a request is made the server should log the request. This is the functionality we want to test later on. 
+The first one, ..., is a simple python HTTP webserver that listens for HTTP requests on port 8000. If a request is made the server should log the request. This is the functionality we want to test later on. 
 
 To build this application we have used the built in `http` python package. 
 
