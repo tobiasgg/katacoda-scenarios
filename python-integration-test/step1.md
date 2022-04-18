@@ -10,3 +10,4 @@ When python is installed you need to install the `testcontainers` package. This 
 `pip install testcontainers`{{execute}}
 
 `pwd`{{execute}}
+`ls`{{execute}}
