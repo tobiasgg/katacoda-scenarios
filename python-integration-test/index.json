@@ -37,7 +37,12 @@
           {"file": "docker-compose.yml", "target": "."},
           {"file": "integration_test.py", "target": "."}
       ]
-  }
+  },
+  "assets2": {
+    "host01": [
+        {"file": "simple_webserver.py", "target": "/server/src"}
+    ]
+}
   },
   "environment": {"uilayout": "vscode-terminal-split"},
   "backend": {

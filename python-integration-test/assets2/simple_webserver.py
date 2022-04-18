@@ -11,7 +11,7 @@ class RequestHandler(SimpleHTTPRequestHandler):
         return SimpleHTTPRequestHandler.do_get(self)
 
 
-def main(server_class=HTTPServer, handler_class=RequestHandler):
+def main():
     server_adress = ("127.0.0.1", 8080)
     httpd = server_class(server_adress, handler_class)
     print("Starting server...")
