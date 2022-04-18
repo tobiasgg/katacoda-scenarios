@@ -1,16 +1,12 @@
 # This is the client that will perform the request
-import http.client
+import requests
 
-class Client:
-    def GET_request(self, adress="127.0.0.1", port=8080):
-        # Performs a GET request to the target adress on specified port number
-        conn = http.client.HTTPSConnection(adress, port)
-        conn.request("GET", "index.html")
-        conn.close()
 
 def main():
-    client = Client()
-    client.GET_request()
+    resp = requests.get("http://127.0.0.1:8080",
+                        verify=False)
+    print(resp)
 
-if __name__ == '__main__':
-    main()
+
+if __name__ == "__main__": main()
+
