@@ -4,4 +4,4 @@ Now it is finally time to create our integration tests using `testcontainers`, w
 In this test case we want to make sure that the request being made by module 2 to the server in module 1 is in fact logged in the `server.request_history` variable.
 
 We run the integration test using the following command:
-`python python-integration-test/integration_test.py`{{execute}} 
+`python /integration_test.py`{{execute}} 
