@@ -6,5 +6,7 @@ In this test case we want to make sure that the client prints the received infor
 To run the test we use the python package `pytest`. We install this package by running the following command:
 `pip install pytest`{{execute}}.
 
+To read more about the `pytest` package please visit the documentation at this [link](https://docs.pytest.org/en/6.2.x/contents.html)
+
 With `pytest` installed we can now run our tests:
 `pytest integration-test.py`{{execute}} 

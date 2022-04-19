@@ -1,8 +1,8 @@
 {
   "title": "Integration testing in python using the testcontainers package",
   "description": "This scenario provides a tutorial on using the testcontainers package for integration testing",
-  "difficulty": "Beginner",
-  "time": "30 minutes",
+  "difficulty": "Intermediate",
+  "time": "15 minutes",
   "details": {
     "steps": [
       {
@@ -40,7 +40,7 @@
       ]
   }
   },
-  "environment": {"uilayout": "vscode-terminal-split"},
+  "environment": {"uilayout": "editor-terminal"},
   "backend": {
     "imageid": "ubuntu:2004"
   }

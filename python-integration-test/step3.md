@@ -1,8 +1,10 @@
 # Setting up Docker Compose
+Start by running this command 
+`docker-compose build`{{execute}} and continue reading this step.
+
 We will use [Docker Compose](https://docs.docker.com/compose/) to containerize our application. Docker Compose is a tool for defining and running multi-container Docker applications. To configure Docker Compose we have created the file `docker-compose.yml`{{open}}. In this file we have specified what containers should be built and in what order. In our case we first build the `server`container, which is specified in `/server/Dockerfile.server`{{open}}, and afterwards the `client`container, which is specified in `/client/Dockerfile.client`{{open}}.
 
-We build our containers by running
-`docker-compose build`{{execute}}
+We build our containers by running the command above, this takes some time to execute so please be patient. You can continue reading the rest of this step and the next one while you wait for it to complete. 
 
 To read more about what Docker is and its uses please visit the [Docker website](https://docs.docker.com/get-started/overview/). We will use Docker Compose as it is one of the multi-container tools that the `testcontainers` package has support for. 
 

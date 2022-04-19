@@ -1,7 +1,7 @@
 # Our two software modules we want to test
 In this step we will present the two software modules we want to perform integration testing on.
 
-The first one, `/server/simple_webserver.py`{{open}}, is a simple python TCP-server that listens for TCP-connections on port 8080. If a connection is established the server prints the request to the standard output.
+The first one, `/server/server.py`{{open}}, is a simple python TCP-server that listens for TCP-connections on port 8080. If a connection is established the server prints the request to the standard output.
 
 To build this application we have used the built in `socketserver` python package. To read the documentation of this package visit this [link](https://docs.python.org/3/library/socketserver.html)
 
