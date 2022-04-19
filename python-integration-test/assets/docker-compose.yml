@@ -1,6 +1,20 @@
-version: "3.9"
+version: "3"
+
 services:
+
   server:
-    build: /server
+    build:
+      context: server/
+      dockerfile: Dockerfile.server
+    command: python ./server.py
+    ports:
+      - 8080:8080
+
   client:
-    build: /client
+    build:
+      context: client/
+      dockerfile: Dockerfile.client
+    command: python ./client.py
+    network_mode: host
+    depends_on:
+      - server

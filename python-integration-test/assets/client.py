@@ -1,12 +1,17 @@
-# This is the client that will perform the request
-import requests
+#!/usr/bin/env python3
+
+import urllib.request
 
 
 def main():
-    resp = requests.get("http://127.0.0.1:8080",
-                        verify=False)
-    print(resp)
+    # Opens the localhost address on port 8080 and decodes the data
+    client = urllib.request.urlopen("http://localhost:8080/")
+    resp_text = client.read().decode("utf8")
+
+    print(resp_text)
+
+    client.close()
 
 
-if __name__ == "__main__": main()
-
+if __name__ == "__main__":
+    main()

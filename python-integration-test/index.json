@@ -30,12 +30,12 @@
     },
     "assets": {
       "host01": [
-          {"file": "simple_webserver.py", "target": "./server/src"},
+          {"file": "server.py", "target": "./server/src"},
           {"file": "Dockerfile.server", "target": "./server/"},
           {"file": "client.py", "target": "./client/src"},
           {"file": "Dockerfile.client", "target": "./client/"},
           {"file": "docker-compose.yml", "target": "."},
-          {"file": "integration_test.py", "target": "."}
+          {"file": "integration-test.py", "target": "."}
       ]
   }
   },
