@@ -6,6 +6,9 @@ In summary we performed the following steps:
 3. Set up containers for our applications using Docker Compose
 4. Created integration test and ran them using `testcontainers``
 
+Takeaways:
+- Integration testing between different software modules deployed on multiple containers can be done by using the `testcontainers`python package.
+
 If you want to learn more about any of the topics discussed in this tutorial please see the following links:
 
 * [Integration testing](https://en.wikipedia.org/wiki/Integration_testing)
