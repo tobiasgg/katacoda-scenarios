@@ -18,3 +18,6 @@ If you want to learn more about any of the topics discussed in this tutorial ple
 * [Docker](https://docs.docker.com/get-started/overview/)
 * [Docker Compose](https://docs.docker.com/compose/)
 * [Python](https://www.python.org/about/)
+
+
+`/server/index.html`{{open}}
