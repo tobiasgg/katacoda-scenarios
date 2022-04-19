@@ -1,6 +1,5 @@
 # Integration testing in python using the testcontainers package
-
-This tutorial aims to show how to perform integration testing between containers in using the python package `testcontainers`. 
+In general, large software projects are split up into smaller modules that can be deployed on different containers. Since integration testing is an important part of testing the quality of software, being able to test different containers in unison is very important. This tutorial aims to show how this can be done using Docker and the python package `testcontainers`. 
 
 You will learn about the following:
 1. Introduction to Integration testing.
