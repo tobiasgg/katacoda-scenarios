@@ -8,6 +8,3 @@ If you want to install python on your own machine please visit https://www.pytho
 
 When python is installed you need to install the `testcontainers` package. This is done using pythons package manager pip:
 `pip install testcontainers`{{execute}}
-
-`pwd`{{execute}}
-`ls`{{execute}}

@@ -42,6 +42,6 @@
   },
   "environment": {"uilayout": "vscode-terminal-split"},
   "backend": {
-    "imageid": "python:3.8"
+    "imageid": "ubuntu:2004"
   }
 }

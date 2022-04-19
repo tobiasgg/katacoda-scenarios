@@ -1,7 +1,10 @@
 # Creating and running our integration tests 
-Now it is finally time to create our integration tests using `testcontainers`, we create a new file, called `integration_test.py` where we import the package.
+Now it is finally time to create our integration tests using `testcontainers`, we create a new file, called `integration-test.py`{{open}} where we import the package and use the DockerCompose submodule.
 
-In this test case we want to make sure that the request being made by module 2 to the server in module 1 is in fact logged in the `server.request_history` variable.
+In this test case we want to make sure that the client prints the received information from the server.
 
-We run the integration test using the following command:
-`python3 integration_test.py`{{execute}} 
+To run the test we use the python package `pytest`. We install this package by running the following command:
+`pip install pytest`{{execute}}.
+
+With `pytest` installed we can now run our tests:
+`pytest integration-test.py`{{execute}} 
